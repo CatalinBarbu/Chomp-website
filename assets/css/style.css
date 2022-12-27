@@ -6,6 +6,12 @@
   font-family: "Nunito";
   src: url(../fonts/Nunito/Nunito-VariableFont_wght.ttf);
 }
+body {
+  width: 1440px;
+  max-width: 100%;
+  margin: 2vh auto;
+  box-shadow: 15px 0 500px 0 darkcyan;
+}
 * {
   margin: 0;
   padding: 0;
@@ -141,4 +147,6 @@ footer {
   padding: 15px 0;
   font-size: 0.9rem;
   font-family: "Nunito";
+}
+@media only screen and (max-width: 900px) {
 }
