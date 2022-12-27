@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "Rock Salt";
+  src: url(../fonts/Rock_Salt/RockSalt-Regular.ttf);
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(../fonts/Nunito/Nunito-VariableFont_wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-image: url("../img/dog_catching_snack.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.titleHeader h1 {
+  text-align: center;
+  padding: 30px;
+  font-family: "Rock Salt";
+}
+.titleHeader h2 {
+  width: 230px;
+  margin-left: auto;
+  text-align: right;
+  font-family: "Nunito";
+  color: red;
+  padding-right: 3vw;
+}
+.howItWorks,
+.theMenu {
+  background-color: darkorange;
+  text-align: center;
+  font-family: "Nunito";
+  padding: 10px 0;
+  font-size: 1.3rem;
+}
+.place1 {
+  padding: 20px 0;
+}
+.place1 p {
+  text-align: center;
+  font-weight: bold;
+}
+.place1 p:first-of-type {
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: darkorange;
+}
+.place1 p:last-of-type {
+  font-family: "Nunito";
+}
+.bgdImg {
+  background-image: url("../img/dog_eating_cookies.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 25vh;
+}
+.bgdImgMit {
+  background-image: url("../img/dog_bowl.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  width: 300px;
+  height: 30vh;
+  margin: 15vh 0;
+  margin: 0 auto;
+}
+.bgdImgMit p:nth-of-type(1) {
+  padding: 15px 0 80px 0;
+  font-weight: bold;
+  font-family: "Nunito";
+}
+.bgdImgMit p:nth-of-type(2) {
+  text-align: right;
+  font-weight: bold;
+  font-family: "Nunito";
+  padding: 0 0 50px 0;
+}
+.bgdImgMit p:nth-of-type(3) {
+  width: 150px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Nunito";
+}
+.paragraf {
+  width: 100%;
+  max-width: 350px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px 0;
+  font-family: "Nunito";
+}
+footer {
+  color: white;
+  background-color: black;
+}
+.paragrafFooter {
+  padding: 15px 15px;
+  width: 300px;
+  margin: 5px auto;
+  text-align: center;
+  font-family: "Nunito";
+}
+.emailAdresse {
+  color: black;
+  width: 350px;
+  max-width: 90%;
+  background-color: white;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px 0;
+  border-radius: 25px 25px 25px 25px;
+}
+.signUp {
+  width: 350px;
+  max-width: 90%;
+  background-color: darkorange;
+  margin: 15px auto;
+  text-align: center;
+  padding: 15px 0;
+  border-radius: 25px 25px 25px 25px;
+  font-family: "Nunito";
+}
+.img {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  margin: 50px auto 0;
+  font-family: "Nunito";
+}
+.chomp {
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9rem;
+  font-family: "Nunito";
+}
